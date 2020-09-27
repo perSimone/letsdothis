@@ -1,0 +1,117 @@
+:root {
+  --my-fave-color: #ffa500;
+  --logo-font: "Pacifico", cursive;
+  --text-font: "Work sans", cursive;
+
+  --main-bg-color: #ffa500;
+  --main-txt-color: blue;
+  -font-size-big: 2rem;
+  --font-size-text: 1.5rem;
+  --font-size-small: 1.1rem;
+  --main-padding: 1.5rem;
+  --main-small-padding: 0.8rem;
+
+  --link-color: white;
+  --link-hover-color: #ffa500;
+
+  --header-bg-color: white;
+  --header-color: black;
+
+  --nav-bg-color: teal;
+  --nav-color: #ffa500;
+
+  --footer-bg-color: black;
+  --footer-color: white;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+body {
+  background: var(--main-bg-color);
+  display: grid;
+  font-family: var(--text-font);
+  font-size: var(--font-size-text);
+  width: 100%;
+}
+
+header {
+  background: var(--header-bg-color);
+  color: var(--header-color);
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding-top: var(--main-small-padding);
+  border-bottom: 10px solid var(--nav-bg-color);
+  z-index: 5;
+}
+
+.logo {
+  font-family: var(--logo-font);
+  line-height: 0.99;
+  text-align: center;
+  width: 20vw;
+}
+
+.logo a {
+  color: var(--my-fave-color);
+  font-weight: bold;
+  font-size: 4rem;
+  text-decoration: none;
+}
+
+.icons {
+  width: 26%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  right: 2%;
+  position: inherit;
+}
+
+.icons>a {
+  margin: 0.5% 2%;
+}
+
+.icons>a>.icon {
+  font-size: 30px;
+  color: var(--header-color);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 1fr 10%;
+  min-height: 100vh;
+  padding: var(--main-padding) 0;
+}
+
+main>.content {
+  grid-column: 2 / span 2;
+}
+
+footer {
+  background: var(--footer-bg-color);
+  bottom: 0;
+  color: var(--footer-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--main-padding);
+  padding-top: var(--main-small-padding);
+  font-size: var(--font-size-small);
+}
+
+footer>.icons>a>.icon {
+  color: var(--footer-color);
+}
