@@ -1,6 +1,4 @@
-# letsdothis
-my first repository today
+# I changed this repo to use it for my personal website
 
-this is me trying to fgure out GitHub. My name is PerSimone because I am currently learning JS ans I love coffee. 
-
-Just trying some changes here.. 
+My website used to be a wordpress site from back when I had my own (sports)photography business.
+I am getting rid of that one and making my website from scratch. Working with PHP, HTML, CSS and JS.
