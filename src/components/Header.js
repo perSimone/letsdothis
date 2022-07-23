@@ -12,9 +12,9 @@ export default function Header() {
       <nav>
         {navLinks.map((link, index) => {
           return (
-            <ul>
+            <ul key={index}>
               <Link href={link.path}>
-                <li key={index}>{link.name}</li>
+                <li>{link.name}</li>
               </Link>
             </ul>
           );
