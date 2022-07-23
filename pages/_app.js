@@ -1,4 +1,5 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 import Head from "next/head";
 import React from "react";
