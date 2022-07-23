@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+}
+
+nav {
+  display: flex;
+  cursor: pointer; 
+  padding: 0 3rem;
+}
+
+nav ul {
+  list-style: none;
+}
