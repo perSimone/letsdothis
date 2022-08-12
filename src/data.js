@@ -2,7 +2,7 @@ import NavLink from "./components/NavLink";
 
 export const navLinks = [
   {
-    name: <NavLink item="Contact Us" />,
+    name: <NavLink item="Contact" />,
     path: "#contact",
   },
   { name: "Home", 

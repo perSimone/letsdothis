@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import styles from "../styles/Home.module.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faDev, faCodepen } from "@fortawesome/free-brands-svg-icons";
 import { faBurger } from "@fortawesome/free-solid-svg-icons";
 
@@ -18,53 +18,79 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <h2 className="under-construction">This is still verymuch a WIP </h2>
+        <h3 className="under-construction-subtitle">
+          (while I play around and learn more next.js)
+        </h3>
         <h1>Simone Puhl</h1>
         <h4 className="tag-phrase">
-        Front-end developer wanting to make pretty things online. 
-        Currently dealing with Magento2  <a href="https://www.experius.nl/">@experius</a>. 
-        Also I love #EC5800.
-</h4>
+          Front-end developer wanting to make pretty things online. Currently
+          dealing with Magento2 <a href="https://www.experius.nl/">@experius</a>
+          . Also I love #EC5800.
+        </h4>
+        <div>ToDo / Next feature coming: Make menu mobile hamburger </div>
+        <br>{/* get rid of this ugly br later! */}</br>
         <div>
-          <Link href='/about'>About / </Link>
-          <Link href='/projects'>Projects / </Link>
-          <Link href='/uses'>Uses</Link>
+          <Link href="/about">About / </Link>
+          <Link href="/projects">Projects / </Link>
+          <Link href="/uses">Uses</Link>
         </div>
         {/* fix this later when I do styling */}
         <br />
         <div>
-            <a href="https://github.com/persimone">·&ensp;
-              <FontAwesomeIcon icon={faGithub} /> ·&ensp;
-            </a>
-            <a href="https://dev.to/persimone">
-              <FontAwesomeIcon icon={faDev} /> ·&ensp;
-            </a>
-            <a href="https://codepen.io/persimone">
-              <FontAwesomeIcon icon={faCodepen} /> ·
-            </a>
-          </div>
+          <a href="https://github.com/persimone">
+            ·&ensp;
+            <FontAwesomeIcon icon={faGithub} /> ·&ensp;
+          </a>
+          <a href="https://dev.to/persimone">
+            <FontAwesomeIcon icon={faDev} /> ·&ensp;
+          </a>
+          <a href="https://codepen.io/persimone">
+            <FontAwesomeIcon icon={faCodepen} /> ·
+          </a>
+        </div>
         <section>
-
           <h3 className="tag-phrase section-title">
             This is the homepage, pretty cool ey?!
           </h3>
           <p className="section-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Aspernatur culpa expedita beatae distinctio sunt unde tempora nemo
-            aliquam nostrum dolor id optio blanditiis, molestias tempore
-            autem? Rem, tempore. Architecto, voluptatum?
+            Cat ipsum dolor sit amet, i do no work yet get food, shelter, and
+            lots of stuff just like man who lives with us and roll on the floor
+            purring your whiskers off. Cats are a queer kind of folk at four in
+            the morning wake up owner meeeeeeooww scratch at legs and beg for
+            food then cry and yowl until they wake up at two pm jump on window
+            and sleep while observing the bootyful cat next door. Climb leg eat
+            grass, throw it back up or purrr purr littel cat, little cat purr
+            purr for sit on the laptop. Cat milk copy park pee walk owner escape
+            bored tired cage droppings sick vet vomit chase imaginary bugs peer
+            out window, chatter at birds, lure them to mouth destroy the blinds.
+            Get away from me stupid dog run up and down stairs ptracy, but small
+            kitty warm kitty little balls of fur. Attack dog, run away and
+            pretend to be victim eat an easter feather as if it were a bird then
+            burp victoriously, but tender so stuff and things if human is on
+            laptop sit on the keyboard funny little cat chirrup noise shaking
+            upright tail when standing next to you. Loves cheeseburgers meow and
+            walk away attack dog, run away and pretend to be victim time to go
+            zooooom yet shove bum in hoomans face like camera lens. Climb a
+            tree, wait for a fireman jump to fireman then scratch his face.
+            Kitty lick the plastic bag i is playing on your console hooman but
+            scratch at the door then walk away or bite plants.
           </p>
 
           <section id="contact">
-            <h3 className="section-title">Contact Us</h3>
+            <h3 className="section-title">Contact</h3>
             <p className="section-body">
-              You can Contact us via our various social media handles
+              You canContact me if you like. Via one of the icons of my
+              developer plaugrounds above. But for now this area is mostly here
+              to practice with an anchor link in the navigation. This contact
+              link only shows on this page! Amazing.
             </p>
           </section>
         </section>
       </main>
 
       <footer className={styles.footer}>
-        Powered by{" "} &ensp;
+        Powered by &ensp;
         <FontAwesomeIcon icon={faBurger} />
       </footer>
     </div>
