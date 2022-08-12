@@ -71,7 +71,7 @@ export default function Home() {
             laptop sit on the keyboard funny little cat chirrup noise shaking
             upright tail when standing next to you. Loves cheeseburgers meow and
             walk away attack dog, run away and pretend to be victim time to go
-            zooooom yet shove bum in owner's face like camera lens. Climb a
+            zooooom yet shove bum in hoomans face like camera lens. Climb a
             tree, wait for a fireman jump to fireman then scratch his face.
             Kitty lick the plastic bag i is playing on your console hooman but
             scratch at the door then walk away or bite plants.
