@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h2 className="under-construction">This is still verymuch a WIP </h2>
+        <h2 className="under-construction">   This is still very much a WIP   </h2>
         <h3 className="under-construction-subtitle">
           (while I play around and learn more next.js)
         </h3>
@@ -29,6 +29,10 @@ export default function Home() {
           . Also I love #EC5800.
         </h4>
         <div>ToDo / Next feature coming: Make menu mobile hamburger </div>
+        <div>
+          For now, if you are on mobile, turn your screen sideways for a better
+          experience.
+        </div>
         <br>{/* get rid of this ugly br later! */}</br>
         <div>
           <Link href="/about">About / </Link>
@@ -80,8 +84,8 @@ export default function Home() {
           <section id="contact">
             <h3 className="section-title">Contact</h3>
             <p className="section-body">
-              You canContact me if you like. Via one of the icons of my
-              developer plaugrounds above. But for now this area is mostly here
+              You can Contact me if you like. Via one of the icons of my
+              developer playgrounds above. But for now this area is mostly here
               to practice with an anchor link in the navigation. This contact
               link only shows on this page! Amazing.
             </p>
