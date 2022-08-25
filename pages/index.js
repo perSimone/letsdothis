@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faDev, faCodepen } from "@fortawesome/free-brands-svg-icons";
 import { faBurger } from "@fortawesome/free-solid-svg-icons";
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -80,16 +81,6 @@ export default function Home() {
             Kitty lick the plastic bag i is playing on your console hooman but
             scratch at the door then walk away or bite plants.
           </p>
-
-          <section id="contact">
-            <h3 className="section-title">Contact</h3>
-            <p className="section-body">
-              You can Contact me if you like. Via one of the icons of my
-              developer playgrounds above. But for now this area is mostly here
-              to practice with an anchor link in the navigation. This contact
-              link only shows on this page! Amazing.
-            </p>
-          </section>
         </section>
       </main>
 
